@@ -1,0 +1,158 @@
+
+
+.article__inner{
+    
+    margin-bottom: 80px;
+    
+}
+
+
+.article__title {
+    margin: 0;
+    padding-top: 88px;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -0.714286px;
+    margin-bottom: 40px;
+    color: #2D314D;
+    
+    
+    
+}
+
+
+.latest__list {
+    
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.latest__item {
+    
+    width: 255px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    
+}
+
+.latest__item+.latest__item {
+    
+    margin-left: 30px;
+    
+}
+
+
+
+.latest__span {
+    
+    
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    margin-left: 24px;
+    
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: -0.15625px;
+    
+    color: #9597A5;
+}
+
+
+.latest__title {
+    
+    
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.285714px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #2D314D;
+    
+    
+    
+    &:hover{
+        
+        transition: color 0.8s ease;
+        color: #30C88F;
+    }
+    
+}
+
+
+.latest__text {
+    
+    
+    
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.203125px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    color: #9597A5;
+    
+    
+}
+
+
+@media only screen and (max-width: 426px) { 
+    
+    .article__title{
+        margin: 0 auto;
+        padding-top: 88px;
+        margin-bottom: 32px;
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 100;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: -0.571429px;
+        color: #2D314D;
+    }
+    
+    .latest__list{
+        flex-direction: column;
+    }
+    
+    .latest__item{
+        margin: 0 auto;
+    }
+    .latest__item + .latest__item{
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+    .latest__span{
+        font-family: "PublicSans";
+        font-size: 10px;
+        line-height: 18px;
+        letter-spacing: -0.15625px;
+        color: #9597A5;
+    }
+    .latest__title{
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.285714px;
+        color: #2D314D;
+    }
+    .latest__item{
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.285714px;
+        color: #2D314D;
+    }
+    
+}

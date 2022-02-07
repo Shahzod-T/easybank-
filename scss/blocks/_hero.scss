@@ -1,0 +1,108 @@
+.hero{
+    
+    
+    width: 100%;
+    background-image: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 546px) calc(50% - 119px);
+}
+
+.hero__inner {
+    
+    max-width: 447px;
+    padding-top: 330px;
+    padding-bottom: 220px;
+    
+}
+
+.hero__title {
+    margin-top: 0px;
+    margin-bottom: 24px;
+    font-weight: 100;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2D314D;
+}
+
+
+.hero__text {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color: #9597A5;
+    margin-top: 0px;
+    margin-bottom: 36px;
+}
+
+
+.hero__link {
+    
+    display: inline-block;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    border-radius: 22px;
+    
+    
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 12px 38px ;
+    
+    &:hover {
+        
+        
+        // background: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.4;
+        border-radius: 22px;
+        
+        
+    }
+    
+    
+    
+    
+}
+
+@media only screen and (max-width:426px){
+    .hero{
+        background-image: url(../images/hero-bg-mobile.png);
+        background-position: calc(50% + 160px) calc(50% - 230px);
+    }
+    .hero__inner{
+        display: flex;
+        flex-direction: column;
+        padding-top: 385px;
+        padding-bottom: 90px;
+    }
+    .hero__title{
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        letter-spacing: -0.714286px;
+        color: #2D314D;
+        margin-bottom: 16px;
+    }
+    .hero__text{ 
+        font-family: "Public Sans";
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.234375px;
+        color: #9597A5;
+        margin-bottom: 32px;
+    }
+    .hero__link{
+        margin: 0px auto;
+    }
+}
+@media only screen and (max-width:376px){
+    .hero{
+        background-position: calc(50% + 180px) calc(50% - 230px);
+    }
+}

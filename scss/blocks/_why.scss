@@ -1,0 +1,213 @@
+.why {
+    margin-top: -115px;
+    position: relative;
+    z-index: -3;
+    background: #F4F5F7;
+}
+.why__front {
+    width: 635px;
+}
+.why__title {
+    margin: 0;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -0.714286px;
+    color: #2D314D;
+    margin-bottom: 16px;
+    padding-top: 96px;
+}
+.why__text {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color: #9597A5;
+    margin-bottom: 184px;
+}
+.info__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0;
+}
+
+.info__item + .info__item{
+    margin-left: 20px;
+}
+.info__item:nth-child(1){
+    width: 250px;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        width: 74px;
+        height: 74px;
+        left: 1px;
+        top: -84px;
+        background-image: url(../images/cards.svg);
+        background-repeat: no-repeat; 
+    }
+    
+}
+
+.info__item:nth-child(2) {
+    width: 250px;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        width: 74px;
+        height: 74px;
+        left: 1px;
+        top: -84px;
+        background-image: url(../images/why-3.svg);
+        background-repeat: no-repeat; 
+    }
+}
+.info__item:nth-child(3) {
+    width: 250px;
+    position: relative;
+    z-index: 1;
+    &::before{
+        content: "";
+        position: absolute;
+        z-index: 1;
+        width: 74px;
+        height: 74px;
+        left: 1px;
+        top: -84px;
+        background-image: url(../images/why-2.svg);
+        background-repeat: no-repeat;
+        
+    }
+    
+}
+
+.info__item:nth-child(4) {  
+    width: 255px;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        width: 74px;
+        height: 74px;
+        left: 1px;
+        top: -84px;
+        background-image: url(../images/cheep.svg);
+        background-repeat: no-repeat;
+        
+    }
+    
+}
+.info__title {
+    
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.428571px;
+    color: #2D314D;
+    
+}
+.info__text {
+    
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #9597A5;  
+    padding-bottom: 94px;
+}
+@media only screen and (max-width: 426px){
+    
+    .why__front{
+        width: 100%;
+        max-width: 327px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+    .why__title{
+        margin-top: 80px;
+        margin-bottom: 0;
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 100;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: -0.571429px;
+        color: #2D314D;
+    }
+    
+    .why__text{
+        margin-top: 14px;
+        margin-bottom: 56px;
+        font-family: PublicSans;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.234375px;
+        color: #9597A5;
+        
+    }
+    
+    .info__list{
+        
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        
+    }
+    .info__item {
+        margin: 0 auto;
+    }
+    .info__item + .info__item{
+        margin: 0px auto;
+    }
+    .info__item:nth-child(1)::before{
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .info__item:nth-child(2)::before{
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .info__item:nth-child(3)::before{
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .info__item:nth-child(4)::before{
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .info__title{
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: -0.357143px;
+        color: #2D314D;
+        padding-top: 96px;
+        
+    }
+    
+    
+    .info__text{
+        font-family: PublicSans;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.234375px;
+        color: #9597A5;
+        
+    }
+    
+    
+    
+}
+
